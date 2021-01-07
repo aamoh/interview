@@ -1,0 +1,26 @@
+
+import java.util.arraylist;
+import java.util.list;
+
+public class Application {
+
+
+    public void greet() {
+	list<string>greetins = new Arraylist<>();
+	greetings.add("hello");
+
+	for (string greeting : greetings) {
+	    system.out.println("Greetings: " + greeting);
+	}
+
+    public Application() {
+        System.out.println ("Inside Application");
+    }   
+
+    // method main(): ALWAYS the APPLICATION entry point
+    public static void main (String[] args) {
+    	System.out.println ("Starting Application");
+	Application app = new Application();
+	app.greet();
+    }
+}
